@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
 
   s.frameworks   = 'QuartzCore'
   s.source_files = 'SVPullToRefresh/*.{h,m}'
+  s.resource_bundle = { 'SVPullToRefresh' => 'SVPullToRefresh/*.png' }
   s.preserve_paths  = 'Demo'
   s.requires_arc = true
 end
